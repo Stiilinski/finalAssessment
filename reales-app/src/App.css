@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 1220px;
+  position: relative;
+}
+
+.headerArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: #61dafbaa soid 1px;
+  background-color: #888;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 2px;
+  width: 400px;
+}
+
+.citizensList {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.searchBar {
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.idArea {
+  display: none;
+}
+
+.boxContainer > div > span {
+  min-width: 80px;
+  display: inline-block;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.btnArea {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
